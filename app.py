@@ -51,15 +51,15 @@ st.write(
 def load_data():
 
     movies = pd.read_csv(
-        "ml-latest-small/movies.csv"
+        "movies.csv"
     )
 
     ratings = pd.read_csv(
-        "ml-latest-small/ratings.csv"
+        "ratings.csv"
     )
 
     tags = pd.read_csv(
-        "ml-latest-small/tags.csv"
+        "tags.csv"
     )
 
     return movies, ratings, tags
